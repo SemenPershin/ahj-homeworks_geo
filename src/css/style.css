@@ -1,0 +1,102 @@
+body {
+    background-color: white;
+
+    
+    width: 40vw;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    align-items: center;
+    justify-content: center;
+    
+
+    margin: auto;
+}
+
+.textarea {
+    width: 100%;
+
+}
+ 
+.board {
+    min-height: 90vh;
+    width: 100%;
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.post {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+    gap: 10px
+}
+
+
+.geo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+
+    position: absolute;
+
+    display: grid;
+
+    grid-template-columns: calc(70% - 5px) 15% 15%;
+    grid-template-rows: auto auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.geo_text {
+    grid-column: 1 / span 3;
+}
+
+.geo_input {
+    grid-column: 1 / span 1;
+}
+
+.geo_ok_button {
+    grid-row: 3 / span 1;
+    grid-column: 3 / 3;
+
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+
+    cursor: pointer;
+}
+
+.geo_close_button {
+    grid-column: 2 / span 1;
+    grid-row: 3 / 3;
+
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+
+    cursor: pointer;
+}

@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ae1cgb6pp5q6wkrd?svg=true)](https://ci.appveyor.com/project/SemenPershin/ahj-homeworks-geo)
